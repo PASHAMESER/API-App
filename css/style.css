@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: system-ui;
+}
+.containerPage {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+}
+.containerPage .devErrorMgs {
+    padding: 10px;
+    background-color: #ff5a5aa1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.container h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.container h3 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.container input {
+    padding: 10px 15px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+.container #submit {
+    background-color: #29363c;
+    border: none;
+    width: 130px;
+    padding: 13px 15px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+}
+.container .devcolor {
+    display: flex;
+    gap: 5px;
+}
+.container .devcolor span {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.container .devcolor span:nth-child(1) {
+    background-color: #023047;
+}
+.container .devcolor span:nth-child(2) {
+    background-color: #3f51b5;
+}
+.container .devcolor span:nth-child(3) {
+    background-color: #607d8b;
+}
+.container .devcolor span:nth-child(4) {
+    background-color: #e91e63;
+}
+.containerDevNote {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.devNote {
+    width: 300px;
+    height: 200px;
+    padding: 0 15px;
+    background-color: #e91e63;
+    color: white;
+}
+.devNote h1 {
+    padding-bottom: 5px;
+}
+.devNote p {
+    padding: 5px;
+}
+.devNote button {
+    background-color: #29363c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.doneX h1 {
+    text-decoration: line-through red;
+}
+.doneX p {
+    text-decoration: line-through red;
+}
+.container #favcolor {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
